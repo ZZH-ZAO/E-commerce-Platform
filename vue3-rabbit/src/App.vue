@@ -1,9 +1,9 @@
-<script setup>
-
-</script>
+<!-- src/App.vue -->
+<script setup></script>
 
 <template>
-  <el-button type="primary">i am button</el-button>
+  <!-- 一级路由出口 -->
+  <RouterView />
 </template>
 
 <style scoped>
