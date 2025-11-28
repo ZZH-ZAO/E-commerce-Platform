@@ -1,10 +1,9 @@
 //new vue 创建一个应用实例对象
 import { createApp } from "vue";
-import App from "./App.vue";
 import { createPinia } from "pinia";
+import App from "./App.vue";
 import router from "./router";
-import "./assets/main.css";
-
+import "@/styles/common.scss";
 //测试接口函数
 import { getCategory } from "@/api/testAPI.js";
 getCategory().then((res) => {
